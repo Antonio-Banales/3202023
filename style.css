@@ -14,3 +14,8 @@ input, label {
 nav {
     display: block;
 }
+
+.ftr-1 {
+    color:dodgerblue;
+    box-sizing: border-box;
+}
