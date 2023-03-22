@@ -1,0 +1,16 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input, label {
+    margin:0.4 rem 0;
+}
+
+.post {
+    container: inline-size;
+}
+
+nav {
+    display: block;
+}
