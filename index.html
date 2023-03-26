@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <title>html and css training site</title>
     <style>
-        h1 {
+        h1, h3 {
             color:aquamarine;
             border:3px solid grey;
+            padding: 8px 8px;
         }
     </style>
 </head>
@@ -19,18 +20,41 @@
             <a href="index.html">Home</a>
             <a href="contact.html">Contact</a>
             <a href="aboutme.html">About Me</a>
-        
-            
         </nav>
     </div>
+        
+            
 
     <div class="showcase-form card">
         <h2>Request A Demo</h2> 
     </div>
+    <!-- new info and fieldset-->
+            <fieldset>
+                <legend>It's all about Bikes</legend>
+                <div>
+                    <label for="bikes">Bikes that I would like To OWN</label>
+                    <input type="text" id="bikes" name="bikes" placeholder="e.g." aria-required="true" required>
+                </div>
+            </fieldset>
+
+            <p>The Autofocus attribute</p>
+            <div>
+                <label for="search">Search the Site</label>
+                <input id="search"
+                name="search"
+                type="search"
+                placeholder="Antonio Banales"
+                autofocus />
+            </div>
+            <div>
+                <p>The Autocomplete Attribute</p>
+                <label for="tel">Telephone (so we can berate you if you're wrong)</label>
+                <input type="tel" name="tel" id="tel" placeholder="1-234-567-8900" autocomplete="off" required>
+            </div>    
 
     <div class="container grid">
         <div class="showcase-text">
-            <h1>Easier Deployment</h1>
+            <h2>Easier Deployment</h2>
             <p>"Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out the form to try a demo of our platform"</p>
             <a href="features.html" class="btn btn-outline">Read More</a>
         </div>
@@ -59,7 +83,7 @@
     <h3>I love this home</h3>
     <img src="img/streetshotevening.jpg" width="600px" height="450px">
 
-    <h1>This is an h1 header</h1>
+    <h2>This is an h1 header</h2>
     <p>To create a Paragraph.</p>
     <p>This is a paragraph. A paragraph consists of one or more sentences that form a self-contained unit of discourse. The start of a paragraph is indicated by a new line.</p>
     <p>Text is easier to understand when it is split up into unit of text. for Example, a book may have chapters. chaopters can save subheading. Under each heading there wil be one or more.</p>
@@ -104,9 +128,10 @@
         </div>
         
         <div>
-            <h1>This is a h1 header in a different color, with inline color styling</h1>
+            <h3>This is a h1 header in a different color, with inline color styling</h3>
         </div>
 
+        <footer class="ftr-1">I'd Rather Be Riding My Bike</footer>
 
     </div>
 
