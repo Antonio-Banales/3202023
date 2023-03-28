@@ -17,3 +17,17 @@ body {
 .circle {
     --size: 25px
 }
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: abbaba;
+    color:dodgerblue;
+    box-sizing: border-box;
+    border: ;
+
+}
+
+.line-1 {
+    
+}
