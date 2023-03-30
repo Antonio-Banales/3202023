@@ -14,11 +14,3 @@ input, label {
 nav {
     display: block;
 }
-
-.ftr-1 {
-    color:dodgerblue;
-    box-sizing: border-box;
-    border: 3px solid rgb(32, 198, 244);
-    padding: 20px 22px;
-    font-size: x-large;
-}

@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    display:grid;
+    place-items:center;
+}
+
+.parent {
+    width:50px;
+    aspect-ratio: 1;
+    background-color: lightblue;
+    border-radius: 50%;
+
+    position: relative;
+
+}
+
+.circle {
+    --size: 25px
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: abbaba;
+    color:dodgerblue;
+    box-sizing: border-box;
+    border: ;
+
+}
+
+.line-1 {
+    
+}
